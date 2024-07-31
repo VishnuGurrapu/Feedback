@@ -1,0 +1,44 @@
+/* Write your CSS code here. */
+/* Write your CSS code here. */
+.bgContainer {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Roboto;
+}
+.Container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: bold;
+}
+.emojiesContainer {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+}
+.emoji {
+  height: 50px;
+}
+.heading2 {
+  font-size: 25px;
+}
+.para {
+  color: #1e293b;
+  font-size: 12px;
+}

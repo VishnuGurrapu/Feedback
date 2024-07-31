@@ -1,0 +1,15 @@
+.listElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji {
+  height: 70px;
+  padding: 5px;
+  cursor: pointer;
+}
+.name {
+  color: #1e293b;
+  font-size: 12px;
+}
